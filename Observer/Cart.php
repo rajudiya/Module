@@ -1,18 +1,22 @@
 <?php
 namespace rohan\observers\Observer;
  
-use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
+use Magento\Framework\App\RequestInterface;
  
-class Data implements ObserverInterface
+class Cart implements ObserverInterface
 {
-    public function execute(Observer $observer)
-        {
-            $quote_item = $observer->getEvent()->getQuoteItem();
-            $price = 400;
-            $quote_item->setCustomPrice($price);
-            $quote_item->setOriginalCustomPrice($price);
-            $quote_item->getProduct()->setIsSuperMode(true);
-        }
+    public function execute(\Magento\Framework\Event\Observer $observer)
+    {
+        //get the item just added to cart
+        $item = $observer->getEvent()->getData('quote_item');
+        $product = $observer->getEvent()->getData('product');
+        // set your custom price
+        $price = 100;
+        $item->setCustomPrice($price);
+        $item->setOriginalCustomPrice($price);
+        $item->getProduct()->setIsSuperMode(true);
     }
+}
+
 ?>

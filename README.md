@@ -14,8 +14,14 @@ URL: `http://127.0.0.1/knockout`
 - `composer remove vendername/observername`
 
 ## Preview will be added
+- `when change in Data.php and changes in the output of the Product View page`
+![products](/readme-images/addname.png "products on Product View page")
 
-![products](/readme-images/addname.png "products on custom page")
+- `when change in Cart.php and changes in the output of the Product Cart and Update Cart`
+![products](/readme-images/price1.png "products on Product View page")
+
+- `Update Cart`
+![products](/readme-images/Price2.png "products on Product View page")
 
 
 ## Settings
