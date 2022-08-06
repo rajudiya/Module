@@ -21,7 +21,7 @@ URL: `http://127.0.0.1/knockout`
 ![products](/readme-images/price1.png "products on Product View page")
 
 - `Update Cart`
-![products](/readme-images/Price2.png "products on Product View page")
+![products](/readme-images/price2.png "products on Product View page")
 
 
 ## Settings
