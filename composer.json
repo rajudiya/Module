@@ -1,6 +1,6 @@
 {
-  "name": "rohan/observers",
-  "description": "catelog-observer",
+  "name": "rohan/login",
+  "description": "customer-login-and-redirect-on-a-cart",
   "type": "magento2-module",
   "version": "1.0.0",
   "license": [
@@ -15,7 +15,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "rohan\\observers\\": ""
+      "rohan\\login\\": ""
     }
   }
 }
