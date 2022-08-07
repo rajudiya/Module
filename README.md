@@ -1,8 +1,8 @@
-# Catalog/Ko
+# Rohan/productviewpage
 
-KnockOut.js practice module. 
-Displays Products using knockout.js on custom page.
-URL: `http://127.0.0.1/knockout`
+productviewpage module. 
+Displays Products witha adited name.
+URL: `http://mage244.com/argus-all-weather-tank.html`
 
 ## Composer install
 
@@ -11,18 +11,11 @@ URL: `http://127.0.0.1/knockout`
 
 ## Composer uninstall
 
-- `composer remove vendername/observername`
+- `composer remove vendername/observername:branch name`
 
 ## Preview will be added
 - `when change in Data.php and changes in the output of the Product View page`
 ![products](/readme-images/addname.png "products on Product View page")
-
-- `when change in Cart.php and changes in the output of the Product Cart and Update Cart`
-![products](/readme-images/price1.png "products on Product View page")
-
-- `Update Cart`
-![products](/readme-images/price2.png "products on Product View page")
-
 
 ## Settings
 
