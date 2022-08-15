@@ -1,8 +1,8 @@
-# Catalog/Ko
+# Login/Module
 
-KnockOut.js practice module. 
+Redairec on the Checkout Cart Page. 
 Displays Products using knockout.js on custom page.
-URL: `http://127.0.0.1/knockout`
+URL: `http://mage244.com/checkout/cart/`
 
 ## Composer install
 
@@ -14,14 +14,9 @@ URL: `http://127.0.0.1/knockout`
 - `composer remove vendername/observername`
 
 ## Preview will be added
-- `when change in Data.php and changes in the output of the Product View page`
-![products](/readme-images/addname.png "products on Product View page")
 
-- `when change in Cart.php and changes in the output of the Product Cart and Update Cart`
-![products](/readme-images/price1.png "products on Product View page")
-
-- `Update Cart`
-![products](/readme-images/price2.png "products on Product View page")
+- `When Customer is login then Redirect on the Checkout Cart page Automatically`
+![products](/readme-images/Redirect.png "products on custom page")
 
 
 ## Settings
