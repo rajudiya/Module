@@ -6,12 +6,12 @@ URL: `http://mage244.com/checkout/cart/`
 
 ## Composer install
 
-- `composer config repositories.reponame vcs https://github.com/username/reponame`
-- `composer require vendername/observername`
+- `composer config repositories.reponame vcs https://github.com/rajudiya/Module`
+- `composer require rohan/login`
 
 ## Composer uninstall
 
-- `composer remove vendername/observername`
+- `composer remove rohan/login`
 
 ## Preview will be added
 
